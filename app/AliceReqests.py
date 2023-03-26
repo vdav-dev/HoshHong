@@ -10,20 +10,21 @@ class AliceRequest(object):  # запрос
         return self._request_dict['version']
 
     @property
+    def state(self):
+        return self._request_dict['state']
+
+    @property
     def session(self):
         return self._request_dict['session']
 
     @property
-    def session_state(self):
-        if 'session_state' in self._request_dict.keys():
-            return self._request_dict['session_state']
-        return None
-
+    def state_session(self):
+        return self.state["session"]
     @property
-    def session_state_value(self):
-        if self.session_state is None:
+    def state_session_value(self):
+        if not self.state_session:
             return None
-        return self.session_state['value']
+        return self.state_session["value"]
 
     @property
     def user_id(self):
@@ -56,6 +57,9 @@ class AliceResponse(object):  # ответ
             "response": {
                 "text": "",
                 "end_session": False
+            },
+            "session_state": {
+                "value": 10
             }
         }
 
@@ -73,8 +77,7 @@ class AliceResponse(object):  # ответ
         else:
             self._response_dict['response']['text'] = text[:1024]
 
-    def set_value(self, value):
-        self._response_dict["session_state"] = {}
+    def set_session_state_value(self, value):
         self._response_dict["session_state"]["value"] = value
 
     def add_button(self, button):

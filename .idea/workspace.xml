@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dc60b17-4869-4724-bee7-6f6be4e9b97a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9378a49d-52dc-483c-92ac-e3b7cc16d47d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/AliceReqests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/AliceReqests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controller.py" afterDir="false" />
@@ -38,7 +38,28 @@
     &quot;last_opened_file_path&quot;: &quot;C:/HoshHong&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Controller">
+    <configuration name="Controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HoshHong" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/Controller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HoshHong" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Controller" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
