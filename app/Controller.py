@@ -10,5 +10,5 @@ def handler(event, context):
             tts=True)
         response.add_button('Да')
         response.add_button('Нет')
-        response[]
+
     return response._response_dict

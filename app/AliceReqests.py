@@ -1,5 +1,6 @@
 import json
 
+
 class AliceRequest(object):  # запрос
     def __init__(self, request_dict):
         self._request_dict = request_dict
@@ -75,8 +76,6 @@ class AliceResponse(object):  # ответ
     def set_value(self, value):
         self._response_dict["session_state"] = {}
         self._response_dict["session_state"]["value"] = value
-
-
 
     def add_button(self, button):
         if 'buttons' not in self._response_dict['response'].keys():
